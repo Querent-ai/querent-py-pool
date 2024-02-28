@@ -3,6 +3,7 @@ members = [
     "macros",
     "pypool",
 ]
+resolver = "2"
 
 [workspace.dependencies]
 heck = "0.4.1"
