@@ -1,0 +1,23 @@
+[package]
+name = "macros"
+version = "0.1.0"
+edition = "2021"
+description = "Procedural macros for Querent python pool"
+authors = ["Querent AI < contact@querent.xyz >"]
+license = "MIT/Apache-2.0" 
+homepage = "https://github.com/querent-ai/querent-py-pool"  
+documentation = "https://docs.querent.xyz"
+categories = ["development-tools::bindings", "python", "development-tools::macros"] 
+keywords = ["python", "proc-macro", "pyo3"]  
+
+[lib]
+proc-macro = true
+
+[dependencies]
+heck = { workspace = true }
+md5 = { workspace = true }
+pyo3 = { workspace = true }
+syn = { workspace = true }
+quote = { workspace = true }
+ctor = { workspace = true }
+

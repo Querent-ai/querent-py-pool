@@ -1,0 +1,22 @@
+[package]
+name = "PyPool"
+version = "0.1.0"
+edition = "2021"
+description = "A simple thread pool for python"
+authors = ["Querent AI <contact@querent.xyz>"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/querent-ai/querent-py-pool"
+documentation = "https://docs.querent.xyz"
+categories = ["development-tools::bindings", "python"] 
+keywords = ["python", "threading", "pyo3"]  
+
+[dependencies]
+macros = { workspace = true }
+md5 = { workspace = true }
+pyo3 = { workspace = true }
+lazy_static = { workspace = true }
+rand = { workspace = true }
+chrono = { workspace = true }
+syn = { workspace = true }
+quote = { workspace = true }
+proc-macro2 = { workspace = true }
